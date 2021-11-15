@@ -11,4 +11,8 @@ print("How much do you weigh (in kilograms)?")
 whole_number = int(input())
 print("\n")
 
-print("you are {input()} years old and your bmi is")
+# calculate bmi
+bmi = tall / (weigh ** 2)
+
+#display result
+print(f"{name} your bmi is {bmi}")
