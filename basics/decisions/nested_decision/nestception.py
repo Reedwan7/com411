@@ -21,7 +21,7 @@ elif look == "in the bathroom":
 elif look == "in the lab":
     print("Where in the lab should I look?")
     lab_place = input()
-    if look == "on the table":
+    if lab_place == "on the table":
         print("Yes! I found my battery!")
     else:
         print("Found some tools but no battery.")
